@@ -7,6 +7,12 @@ a = {1,2,3,4}
 
 print(a)
 
+def solve(a, b):
+    if a%2 ==0:
+        return a*b
+    else:
+        return a+b
+
 
 # Press the green button in the gutter to run the script.
 # if __name__ == '__main__':
